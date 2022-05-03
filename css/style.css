@@ -1,0 +1,151 @@
+/* Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    background-color: #090a1a;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+}
+/* Variables */
+:root{
+    --main-color: #6424FF;
+    --body-color: #090a1a;
+    --container-color: #171b3c;
+    --heading-color: #222321;
+    --box-color: #0d0f26;
+    --bg-color: #fff;
+}
+
+body {
+    color: var(--bg-color);
+    background-color: var(--body-color);    
+}
+
+img{
+    width: 100%;
+}
+
+section{
+    padding: 3rem 0 2rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    max-width: 960px;
+    margin: auto;
+    width: 100%;
+}
+
+/* Header */
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    column-gap: 1.5rem;
+}
+
+/*
+p{
+    color: #6424FF;
+}
+
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead{
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+th{
+    font-weight: bold;
+    color: #8892b0;
+    font-family: "Calibre","Inter","San Francisco","SF Pro Text",-apple-system,system-ui,sans-serif;
+}
+
+td{
+    padding-right: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+}
+table td.links div {
+    /* display: flex; */
+    /* -webkit-box-align: center; 
+    align-items: center;
+}
+table td.links div a {
+    /* display: flex; */
+    /* -webkit-box-pack: center; 
+    justify-content: center;
+    /* -webkit-box-align: center; 
+    align-items: center;
+    flex-shrink: 0;
+    
+}
+
+.links svg{
+    height: 40px;
+    width: 30px;
+    color: #6424FF;
+}
+.tableSection{
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btnLink{
+    width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #6424FF;
+    border-radius: 20px;
+    margin-top: 150px;
+}
+.btnLink a{
+    
+    color: white;
+    background-color: #6424FF;
+    text-decoration: none;
+    font-size: 50px;
+}
+*/
