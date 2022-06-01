@@ -221,6 +221,9 @@ header{
     text-align: center;
 }
 
+.card{
+    background-color: var(--container-color);
+}
 /* https://youtu.be/oMC6gyTWtic on 22:26 */
 /*
 p{
