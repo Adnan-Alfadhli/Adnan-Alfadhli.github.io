@@ -35,6 +35,7 @@ section{
 
 a{
     text-decoration: none;
+    color: var(--main-color);
 }
 
 li{
@@ -200,6 +201,24 @@ header{
 .scoial .bx:hover{
     background: var(--main-color);
     transition: 0.3s all linear;
+}
+
+.projects{
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projects-content{
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 /* https://youtu.be/oMC6gyTWtic on 22:26 */
